@@ -5,10 +5,31 @@ h1 {
 
 html {
 
-    background-color: #FFFFCC;
+    background-color: #fefbd8;
 }
 
 h2, h3 {
 
     color: #08385b
+}
+
+nav {
+
+    text-align: center;
+    background-color: #d5f4e6;
+}
+
+.course_nav {
+
+    background-color: #80ced6 ;
+    padding: 5px;
+    border: 2px solid #618685;
+    margin: 5px;
+}
+
+.school_nav {
+    background-color: #80ced6 ;
+    padding: 5px;
+    border: 2px solid #618685;
+    margin: 5px;
 }
