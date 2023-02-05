@@ -1,6 +1,11 @@
 h1 {
 
     color:  #F245DE;
+    
+}
+
+.main_header {
+    font-family: "Montserrat", sans-serif;
 }
 
 html {
@@ -10,7 +15,7 @@ html {
 
 h2, h3 {
 
-    color: #08385b
+    color:  #F245DE;
 }
 
 nav {
