@@ -1,6 +1,28 @@
+html {
+
+    background-color: #fefbd8;
+    scroll-behavior: smooth;
+}
+
 h1 {
 
     color:  #F245DE;
+    
+}
+
+h2, h3 {
+
+    color: #F245DE;
+}
+
+header {
+
+    text-align: center;
+    padding: 30px;
+    background-color: #3fc5d4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 
@@ -9,24 +31,7 @@ h1 {
     font-family: "Montserrat", sans-serif;
 }
 
-html {
-
-    background-color: #fefbd8;
-}
-
-h2, h3 {
-
-    color:  #F245DE;
-}
-
-nav {
-
-    text-align: center;
-    padding: 30px;
-    background-color: #3fc5d4;
-}
-
-.course_nav {
+.nav_links {
 
     background-color: #c4f1f6 ;
     padding: 5px;
@@ -34,9 +39,34 @@ nav {
     margin: 5px;
 }
 
-.school_nav {
-    background-color: #c4f1f6 ;
-    padding: 5px;
-    border: 2px solid black;
-    margin: 5px;
+.about-me {
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 100px repeat(3, 1fr);
+
+}
+
+.about-header{
+    grid-row: 1/4;
+    grid-column: 1;
+
+}
+
+.about-image{
+    grid-column: 2;
+    grid-row: 2/4;
+
+}
+
+.about-paragraph1{
+    grid-column: 1/2;
+    grid-row: 2/4;
+
+}
+
+.about-paragraph2{
+    grid-column: 1/2;
+    grid-row: 4;
+
 }
