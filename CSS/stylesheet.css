@@ -26,6 +26,16 @@ header {
     
 }
 
+footer{
+    text-align: center;
+    background-color: #3fc5d4 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1px;
+    margin-bottom: 20px;
+}
+
 .main_header {
     font-size: 30px;
     font-family: "Montserrat", sans-serif;
@@ -48,6 +58,7 @@ header {
 }
 
 .about-header{
+    font-size: 28px;
     grid-row: 1/4;
     grid-column: 1;
 
